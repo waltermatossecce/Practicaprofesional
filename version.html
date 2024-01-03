@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <title>Banbif</title>
+</head>
+<style>
+    p {
+        color: #205B82;
+    }
+    .right{
+        margin-left: auto;
+    }
+    .btn{
+        background: rgb(156,116,234);
+         background: linear-gradient(90deg, rgba(156,116,234,1) 6%, rgba(150,100,240,1) 12%, rgba(141,79,249,1) 14%, rgba(126,83,250,1) 17%, rgba(115,87,252,1) 20%, rgba(111,88,252,1) 23%,rgba(104,90,252,1) 25%, rgba(101,91,253,1) 29%, rgba(93,93,253,1) 34%, rgba(89,94,253,1) 38%, rgba(85,96,254,1) 41%, rgba(81,97,254,1) 43%, rgba(74,99,255,1) 45%, rgba(66,108,255,1) 47%,rgba(60,116,255,1) 50%, rgba(53,128,255,1) 53%, rgba(53,132,255,1) 57%, rgba(44,143,255,1) 63%, rgba(36,153,255,1) 68%, rgba(32,158,255,1) 75%, rgba(37,150,255,1) 89%,rgba(28,162,255,1) 100%);
+    }
+    .color{
+        color: #004470;
+    }
+    
+</style>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-1">
+                </div>
+                <div class="col-md-10">
+                    <img src="https://www.logotypes101.com/logos/596/714E8ED288BC93AD732AC4BD6710E04B/banbif-03.png"
+                        width="100px" height="80px" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid quitar" class="degradado d-md-block" style="padding: 30px 10px 30px 10px; background: rgb(32,166,255);
+    background: linear-gradient(90deg, rgba(32,166,255,1) 0%, rgba(33,166,255,1) 6%, rgba(32,166,255,1) 10%, rgba(32,165,255,1) 14%, rgba(29,164,255,1) 18%, rgba(29,163,255,1) 24%, rgba(31,162,255,1) 28%, rgba(27,156,253,1) 31%, rgba(23,150,252,1) 38%, rgba(22,148,252,1) 39%, rgba(22,146,252,1) 42%, rgba(22,146,251,1) 45%, rgba(22,145,251,1) 47%, rgba(21,145,251,1) 50%, rgba(20,144,251,1) 52%, rgba(20,143,251,1) 54%, rgba(19,142,250,1) 57%, rgba(15,135,249,1) 57%, rgba(18,141,250,1) 57%, rgba(20,142,251,1) 58%, rgba(10,127,248,1) 66%, rgba(7,120,246,1) 69%, rgba(6,118,246,1) 80%, rgba(5,116,246,1) 82%, rgba(4,114,245,1) 85%, rgba(4,113,245,1) 88%, rgba(4,113,245,1) 92%, rgba(4,113,245,1) 95%, rgba(3,113,245,1) 100%);">
+        <div class="col-md-10 offset-md-1 ">
+            <h4 style="color: white;" class="mt-4">
+                <strong> BanBif Factoring Independiente</strong>
+            </h4>
+            <p style="color: white;">Obtén la liquidez inmediata que tu negocio necesita</p>
+        </div>
+    </div>
+   
+
+    
+   <div class="container">
+    <div class="row ">
+
+        <div class="col-md-4 mt-5 centro">
+            <h5 class="color">Monto a desembolsar:</h5>
+            <h1 class="color">S/1,000</h1>
+            <br>
+            <p>Tasa de interés efectiva anual: 23% 
+                La Tasa es referencial.
+            </P>
+        </div>
+        <div class="col-md-8 margin">
+            <p class="centra color">
+                Sabemos que estás interesado en el producto, por eso dentro de las 24 horas hábiles siguientes, 9-6pm, un ejecutivo BanBif se comunicará contigo al número brindado para brindarte mayor información.
+            </p>
+            <p style="color: #80A1B7;">
+                Las comisiones del producto pueden ser consultadas en el Tarifario General de BanBif, disponible en nuestra página web www.banbif.pe 
+            </p>
+        </div>
+    </div>
+   </div>
+
+            <script src="script.js"></script>
+</body>
+
+</html>

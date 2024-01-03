@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Banbif</title>
+
+    <style>
+        .mensaje-error {
+          color: red;
+          margin-top: 5px;
+        }
+      </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-1">
+                </div>
+                <div class="col-md-10">
+                    <img src="https://www.logotypes101.com/logos/596/714E8ED288BC93AD732AC4BD6710E04B/banbif-03.png"
+                        width="100px" height="80px" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class=" container-fluid prefix response d-none d-md-block">
+        <div class="col-md-10 offset-md-1 cambiar">
+            <h4 class="blanco " class="mt-4">
+                <strong> BanBif Factoring Independiente</strong>
+            </h4>
+            <p class="blanco">Obtén la liquidez inmediata que tu negocio necesita.</p>
+        </div>
+    </div>
+
+    <!-- CARRO MOVIL -->
+
+    <div class="carousel-container">
+        <div class="carousel-item active color">
+            
+             Aceptamos facturas
+            <strong>sin montos
+                mínimos</strong>, hasta un plazo máximo de <strong>180 días</strong>
+            calendario.
+        </div>
+        <div class="carousel-item"> <div class="col-md-10 offset-md-1 cambiar">
+            <p class="blanco">Obtén la liquidez inmediata que tu negocio necesita.</p>
+        </div></div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+    </div>
+
+
+    <!-- WEB ESCRITORIO -->
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-3 d-none d-md-block">
+                    <img src="./img/portada.png" alt="" width="190px" height="250px">
+                </div>
+                <div class="col-md-4 d-none d-md-block" style="padding-top: 80px;">
+                    <div class="data" style="padding: 10px 10px 10px 10px;">
+                        <p> <strong>Desembolsos al 100% </strong> del cobro de tus facturas el mismo día (*).</p>
+                        <p>Aceptamos facturas
+                            <strong>sin montos mínimos, </strong>
+                            hasta un plazo máximo de
+                            <strong>180 días</strong>calendario.
+                        </p>
+                    </div>
+                  
+                    <small class="color">
+
+                        (*) El otorgamiento del producto está sujeto a evaluación. Los desembolsos
+                        se realizan en días hábiles.
+                    </small>
+                </div>
+                <div class="col-md-5 mt-5 ">
+
+                    <p class="d-block" class="azul"><Strong>Simula tu adelanto</Strong> y conoce la mejor oferta <br>
+                        que tenemos para ti.</p>
+                    <form id="miFormulario" class="color">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="dni" name="dni" title="Debe empezar con 7 y tener 8 dígitos" placeholder="DNI" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="celular" placeholder="Celular" name="tel" title="Debe empezar con 9 y tener 9 dígitos" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="correo" name="email" placeholder="E-mail" title="Correo electrónico inválido" required>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="checkbox" checked>
+                                <p class="color">He leido y acepto la Cláusula
+                                <p style="color: #1EA0FE;"> de información y consentimiento para tratamiento datos
+                                    personales</p>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button class="blanco btn" type="submit" class="btn btn-primary" id="solicitar"
+                                style="border-radius: 1.2rem; padding: 7px 70px 7px 70px; color: white;">Comenzar</button>
+                        </div>
+                        <small class="color d-block d-md-none">
+
+                            (*) El otorgamiento del producto está sujeto a evaluación. Los desembolsos
+                            se realizan en días hábiles.
+                        </small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        var carousel = document.querySelector('.carousel-container');
+        var carouselItems = document.querySelectorAll('.carousel-item');
+        var carouselBtns = document.querySelectorAll('.carousel-btn');
+        var activeItem = 0;
+
+        carouselItems.forEach(function (item, idx) {
+            if (idx !== activeItem) {
+                item.style.display = 'none';
+            }
+        });
+
+        carouselBtns.forEach(function (btn) {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+                if (e.target.classList.contains('next')) {
+                    activeItem++;
+                    if (activeItem > carouselItems.length - 1) {
+                        activeItem = 0;
+                    }
+                } else if (e.target.classList.contains('prev')) {
+                    activeItem--;
+                    if (activeItem < 0) {
+                        activeItem = carouselItems.length - 1;
+                    }
+                }
+
+                carouselItems.forEach(function (item, idx) {
+                    if (idx !== activeItem) {
+                        item.style.display = 'none';
+                    } else {
+                        item.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>

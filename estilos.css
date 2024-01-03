@@ -1,0 +1,230 @@
+/* estilos.css */
+
+.azul {
+    color: #205B82;
+}
+
+p {
+    color: #205B82;
+}
+
+
+.btn {
+    background: rgb(156, 116, 234);
+    background: linear-gradient(90deg, rgba(156, 116, 234, 1) 6%, rgba(150, 100, 240, 1) 12%, rgba(141, 79, 249, 1) 14%, rgba(126, 83, 250, 1) 17%, rgba(115, 87, 252, 1) 20%, rgba(111, 88, 252, 1) 23%, rgba(104, 90, 252, 1) 25%, rgba(101, 91, 253, 1) 29%, rgba(93, 93, 253, 1) 34%, rgba(89, 94, 253, 1) 38%, rgba(85, 96, 254, 1) 41%, rgba(81, 97, 254, 1) 43%, rgba(74, 99, 255, 1) 45%, rgba(66, 108, 255, 1) 47%, rgba(60, 116, 255, 1) 50%, rgba(53, 128, 255, 1) 53%, rgba(53, 132, 255, 1) 57%, rgba(44, 143, 255, 1) 63%, rgba(36, 153, 255, 1) 68%, rgba(32, 158, 255, 1) 75%, rgba(37, 150, 255, 1) 89%, rgba(28, 162, 255, 1) 100%);
+}
+
+.response {
+    /* position: absolute; */
+    padding: 30px 10px 30px 10px;
+    background: linear-gradient(90deg, rgba(32, 166, 255, 1) 0%, rgba(33, 166, 255, 1) 6%, rgba(32, 166, 255, 1) 10%, rgba(32, 165, 255, 1) 14%, rgba(29, 164, 255, 1) 18%, rgba(29, 163, 255, 1) 24%, rgba(31, 162, 255, 1) 28%, rgba(27, 156, 253, 1) 31%, rgba(23, 150, 252, 1) 38%, rgba(22, 148, 252, 1) 39%, rgba(22, 146, 252, 1) 42%, rgba(22, 146, 251, 1) 45%, rgba(22, 145, 251, 1) 47%, rgba(21, 145, 251, 1) 50%, rgba(20, 144, 251, 1) 52%, rgba(20, 143, 251, 1) 54%, rgba(19, 142, 250, 1) 57%, rgba(15, 135, 249, 1) 57%, rgba(18, 141, 250, 1) 57%, rgba(20, 142, 251, 1) 58%, rgba(10, 127, 248, 1) 66%, rgba(7, 120, 246, 1) 69%, rgba(6, 118, 246, 1) 80%, rgba(5, 116, 246, 1) 82%, rgba(4, 114, 245, 1) 85%, rgba(4, 113, 245, 1) 88%, rgba(4, 113, 245, 1) 92%, rgba(4, 113, 245, 1) 95%, rgba(3, 113, 245, 1) 100%);
+}
+
+.blanco {
+    color: white;
+}
+
+.color {
+    color: #80A1B7;
+}
+
+.degradado {
+    background: linear-gradient(90deg, rgba(32, 166, 255, 1) 0%, rgba(33, 166, 255, 1) 6%, rgba(32, 166, 255, 1) 10%, rgba(32, 165, 255, 1) 14%, rgba(29, 164, 255, 1) 18%, rgba(29, 163, 255, 1) 24%, rgba(31, 162, 255, 1) 28%, rgba(27, 156, 253, 1) 31%, rgba(23, 150, 252, 1) 38%, rgba(22, 148, 252, 1) 39%, rgba(22, 146, 252, 1) 42%, rgba(22, 146, 251, 1) 45%, rgba(22, 145, 251, 1) 47%, rgba(21, 145, 251, 1) 50%, rgba(20, 144, 251, 1) 52%, rgba(20, 143, 251, 1) 54%, rgba(19, 142, 250, 1) 57%, rgba(15, 135, 249, 1) 57%, rgba(18, 141, 250, 1) 57%, rgba(20, 142, 251, 1) 58%, rgba(10, 127, 248, 1) 66%, rgba(7, 120, 246, 1) 69%, rgba(6, 118, 246, 1) 80%, rgba(5, 116, 246, 1) 82%, rgba(4, 114, 245, 1) 85%, rgba(4, 113, 245, 1) 88%, rgba(4, 113, 245, 1) 92%, rgba(4, 113, 245, 1) 95%, rgba(3, 113, 245, 1) 100%);
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Estilos para móviles */
+    /* .carousel {
+        background-color: #ffff;
+        color: #205B82;
+    }
+
+    .centrado {
+        text-align: justify;
+    } */
+
+    .prefix{ 
+        background-color: rgb(167, 24, 24);
+    }
+
+    .response {
+        padding: 30px 10px 30px 10px;
+        background-color: rgb(167, 24, 24);
+    }
+    
+    .carousel-container {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(90deg, rgba(32, 166, 255, 1) 0%, rgba(33, 166, 255, 1) 6%, rgba(32, 166, 255, 1) 10%, rgba(32, 165, 255, 1) 14%, rgba(29, 164, 255, 1) 18%, rgba(29, 163, 255, 1) 24%, rgba(31, 162, 255, 1) 28%, rgba(27, 156, 253, 1) 31%, rgba(23, 150, 252, 1) 38%, rgba(22, 148, 252, 1) 39%, rgba(22, 146, 252, 1) 42%, rgba(22, 146, 251, 1) 45%, rgba(22, 145, 251, 1) 47%, rgba(21, 145, 251, 1) 50%, rgba(20, 144, 251, 1) 52%, rgba(20, 143, 251, 1) 54%, rgba(19, 142, 250, 1) 57%, rgba(15, 135, 249, 1) 57%, rgba(18, 141, 250, 1) 57%, rgba(20, 142, 251, 1) 58%, rgba(10, 127, 248, 1) 66%, rgba(7, 120, 246, 1) 69%, rgba(6, 118, 246, 1) 80%, rgba(5, 116, 246, 1) 82%, rgba(4, 114, 245, 1) 85%, rgba(4, 113, 245, 1) 88%, rgba(4, 113, 245, 1) 92%, rgba(4, 113, 245, 1) 95%, rgba(3, 113, 245, 1) 100%);
+    }
+
+    /* Carousel items */
+    .carousel-item {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* Carousel control buttons */
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 15px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.5);
+    } */
+
+    .carousel-btn.prev {
+        left: 20px;
+    }
+
+    .carousel-btn.next {
+        right: 20px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* .carousel {
+        background-color: #ffff;
+        color: #205B82;
+        text-align: center;
+        height: 200px;*/
+      
+    }
+
+    .pequeño {
+        padding: auto;
+    } */
+    
+    .carousel-container {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(90deg, rgba(32, 166, 255, 1) 0%, rgba(33, 166, 255, 1) 6%, rgba(32, 166, 255, 1) 10%, rgba(32, 165, 255, 1) 14%, rgba(29, 164, 255, 1) 18%, rgba(29, 163, 255, 1) 24%, rgba(31, 162, 255, 1) 28%, rgba(27, 156, 253, 1) 31%, rgba(23, 150, 252, 1) 38%, rgba(22, 148, 252, 1) 39%, rgba(22, 146, 252, 1) 42%, rgba(22, 146, 251, 1) 45%, rgba(22, 145, 251, 1) 47%, rgba(21, 145, 251, 1) 50%, rgba(20, 144, 251, 1) 52%, rgba(20, 143, 251, 1) 54%, rgba(19, 142, 250, 1) 57%, rgba(15, 135, 249, 1) 57%, rgba(18, 141, 250, 1) 57%, rgba(20, 142, 251, 1) 58%, rgba(10, 127, 248, 1) 66%, rgba(7, 120, 246, 1) 69%, rgba(6, 118, 246, 1) 80%, rgba(5, 116, 246, 1) 82%, rgba(4, 114, 245, 1) 85%, rgba(4, 113, 245, 1) 88%, rgba(4, 113, 245, 1) 92%, rgba(4, 113, 245, 1) 95%, rgba(3, 113, 245, 1) 100%);
+    }
+
+    /* Carousel items */
+    .carousel-item {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* Carousel control buttons */
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 15px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.5);
+    } */
+
+    .carousel-btn.prev {
+        left: 20px;
+    }
+
+    .carousel-btn.next {
+        right: 20px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* .carousel {
+        background-color: #ffff;
+        color: #205B82;
+    }
+
+    .pequeño {
+        padding: auto;
+    } */
+
+    .carousel-container {
+        display: none;
+        background-color: #205B82;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* .carousel {
+        background-color: #ffff;
+        color: #205B82;
+    }
+
+    .pequeño {
+        padding: auto;
+    } */
+    /* .carousel-containe {
+        display: none;
+    } */
+    .carousel-container {
+        display: none;
+        background-color: #205B82;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px)  {
+    /* .carousel {
+        background-color: #ffff;
+        color: #205B82;
+        display: none;
+    } */
+
+    .carousel-container {
+        display: none;
+        background-color: #205B82;
+    }
+    
+
+}
+.color{
+    color: white;
+}
+
